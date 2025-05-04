@@ -1,0 +1,21 @@
+h1{
+    background-color: yellow;
+    color: red;
+}
+p{
+    color: whitesmoke;
+}
+#container{
+    border: solid 1px black;
+    height: 1000px;
+    width: 1400px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg);
+    
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+    background-size: auto;
+    background-size: cover;
+    background-size: contain;
+}

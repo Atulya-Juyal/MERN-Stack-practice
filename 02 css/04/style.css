@@ -1,0 +1,26 @@
+#container{
+    height: 500px;
+    width: 700px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+
+    color: #999daa;
+    color: #9d4f9960;
+    
+    color: rgb(120, 222, 89);
+    color: rgba(211, 100, 200, 0.5);
+    
+    color: hsl(300, 15%, 42%);
+    color: hsla(98, 37%, 37%, 0.5);
+}
+body{
+    background: linear-gradient(120deg, indigo,violet,green,yellow,orange,red);
+    background: radial-gradient(red,yellow,green,black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}

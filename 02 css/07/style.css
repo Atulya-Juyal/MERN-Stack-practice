@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 30px;
+}
+.parent{
+    height: 500px;
+    width: 400px;
+
+    /* height: 70vh; * related to viewport(visisble screen 00-100)/
+    /* width: 50vw; */
+    background-color: brown;
+    border: 1px solid greenyellow;
+
+    font-size: 50px;
+}
+.child{
+    background-color: blue;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    border: 1px solid aliceblue;
+    /* font-size: 2em; em = font of parent*/
+    font-size: 2rem;
+}

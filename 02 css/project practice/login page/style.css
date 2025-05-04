@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage{
+    background-color: rgba(255, 255, 255, 0.125);
+    height: 70%;
+    width: 50%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    gap: 30px;
+}
+.loginDetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+p{
+    text-decoration: underline;
+}
+h1{
+    font-size: 80px;
+}
+input[type="text"],input[type="password"]{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(silver,grey);
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(grey,silver);
+}
+input[type="checkbox"]{
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}

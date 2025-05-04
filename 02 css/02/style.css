@@ -1,0 +1,31 @@
+h1{
+    color: pink;
+    
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+    text-align: center;
+    text-decoration: underline line-through overline dotted blanchedalmond 10px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px gray;
+}
+
+.dum{
+    color: red;
+    background-color: aqua;
+}
+
+.asd:hover{
+    color: gray;
+    text-shadow: 4px 4px 4px pink;
+}
+
+.wrapper{
+    border: 1px dashed black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-width: 1px 2px 3px 4px;
+    border-style: dashed dotted solid solid;
+}

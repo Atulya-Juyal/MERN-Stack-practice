@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    border: solid black;
+    border-width: 5px 10px 15px 20px;
+    padding: 20px 15px 10px 5px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+span{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
