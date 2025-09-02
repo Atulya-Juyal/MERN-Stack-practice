@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    color: #117d11;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    /* transform: translateX(50px);  cant use both */
+    /* transform: translateY(50px);  at same time */
+    /* transform: translate(50px, 50px); */
+
+    /* transform: rotateX(40deg);      cant use       */
+    /* transform: rotateY(40deg);      more than one  */
+    /* transform: rotateZ(40deg);      at a time      */
+    /* transform: rotate(45deg); same as rotateZ */
+
+    /* transform: scaleX(1.2);      cant use        */
+    /* transform: scaleY(1.2);      more than one   */
+    /* transform: scaleZ(1.2);      at a time       */
+    /* transform: scale(1.3); */
+    
+    /* transition: all 20s linear;
+    transform: translateX(677px) rotate(3600deg); */
+
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    /* transform: skew(45deg,10deg); */
+    
+}

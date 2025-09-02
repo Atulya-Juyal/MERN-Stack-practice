@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    align-content: center;
+    text-align: center;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: jj 2s linear 0s 4 alternate both;
+}
+
+@keyframes jj {
+    from{
+        height: 0px;
+        width: 0px;
+    }
+    to{
+        height: 417px;
+        width: 880px;
+    }
+}
+
+/* h1:hover{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s linear;
+} */
