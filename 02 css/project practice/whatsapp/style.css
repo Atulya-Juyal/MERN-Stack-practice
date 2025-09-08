@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #fcf5eb;
+    padding: 0 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.navbar img:nth-child(1){
+    width: 130px;
+    height: 30px;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}   
+
+.navItems > div{
+    display: flex;
+}
+
+.navItems > div > img{
+    rotate: -90deg;
+}
+
+.navbar > button{
+    display: flex;
+}
+
